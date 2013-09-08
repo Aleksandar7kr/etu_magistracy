@@ -1,0 +1,91 @@
+<HTML>
+<HEAD>
+    <TITLE>1-14</TITLE>
+</HEAD>
+
+<BODY>
+<H2>Форма для обратной связи</H2>
+
+<P>Пожалуйста, заполните эту форму.</P>
+
+<FORM METHOD="POST" ACTION="cgi-bin/formmail">
+    <INPUT TYPE="hidden" NAME="recipient"
+           VALUE="AMIvanov@www.eltech.ru">
+    <INPUT TYPE="hidden" NAME="subject"
+           VALUE="Feedback Form">
+    <INPUT TYPE="hidden" NAME="redirect"
+           VALUE="main.html">
+
+    <P><STRONG>Имя: </STRONG>
+        <INPUT NAME="name" TYPE="text" SIZE="25"></P>
+
+    <P><STRONG>Ваши комментарии:</STRONG>
+        <TEXTAREA NAME="comments" ROWS="4" COLS="36"></TEXTAREA>
+    </P>
+
+    <P><STRONG>Адрес электронной почты:</STRONG>
+        <!-- Вводимые в это поле символы на экран не выводятся.-->
+        <INPUT NAME="email" TYPE="password" SIZE="25"></P>
+
+    <P><STRONG>Как Вы попали на наш сайт?:</STRONG><BR>
+        <!-- Тег <INPUT TYPE = "radio"> создает радиокнопку -->
+        С помощью поисковой системы
+        <INPUT NAME="how get to site" TYPE="radio"
+               VALUE="search engine" CHECKED>
+        С помощью ссылок
+        <INPUT NAME="how get to site" TYPE="radio"
+               VALUE="link">
+        Узнал адрес сайта из книги
+        <INPUT NAME="how get to site" TYPE="radio"
+               VALUE="book">
+        Другое
+        <INPUT NAME="how get to site" TYPE="radio"
+               VALUE="other">
+    </P>
+    <!-- Тег <select> создает выпадающий список, -->
+    <!-- элементы которого перечисляются в тегах <option> -->
+    <P><STRONG>Оцените наш сайт (1-5):</STRONG>
+        <SELECT NAME="rating">
+            <OPTION SELECTED>Замечательный
+            <OPTION>5
+            <OPTION>4
+            <OPTION>3
+            <OPTION>2
+            <OPTION>1
+            <OPTION>Ужасный
+        </SELECT></P>
+
+
+    <P><STRONG>Место работы:</STRONG>
+        <TEXTAREA NAME="work" ROWS="4" COLS="36"></TEXTAREA>
+    </P>
+
+    <P><STRONG>Предпочитаемая операционная система:</STRONG><BR>
+        Windows
+        <INPUT NAME="how get to site" TYPE="radio"
+               VALUE="win" CHECKED><BR>
+        Unix
+        <INPUT NAME="how get to site" TYPE="radio"
+               VALUE="linux"><BR>
+        OS/2
+        <INPUT NAME="how get to site" TYPE="radio"
+               VALUE="os2"><BR>
+    </P>
+
+    <INPUT TYPE="submit" VALUE="Отправить">
+    <INPUT TYPE="reset" VALUE="Очистить">
+</FORM>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
