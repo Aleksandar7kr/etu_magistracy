@@ -1,0 +1,37 @@
+
+<HTML>
+<HEAD>
+    <TITLE>2-12</TITLE>
+    <OBJECT ID = "Colors"
+            CLASSID = "CLSID:333C7BC4-460F-11D0-BC04-0080C7055A83">
+        <PARAM NAME = "DataURL" VALUE = "names.txt">
+        <PARAM NAME = "UseHeader" VALUE = "TRUE">
+        <PARAM NAME = "TextQualifier" VALUE = "@">
+        <PARAM NAME = "FieldDelim" VALUE = "*">
+    </OBJECT>
+</HEAD>
+<BODY STYLE = "background-color: darkseagreen">
+<H1>Привязка данных к элементу <CODE>TABLE</CODE></H1>
+<TABLE DATASRC = "#Colors" STYLE = "border-style: ridge;
+   border-color: darkseagreen; background-color: lightcyan">
+    <THEAD>
+    <TR STYLE = "background-color: mediumslateblue">
+        <TH>Название цвета</TH>
+        <TH> RGB - значение цвета</TH>
+    </TR>
+    </THEAD>
+    <TBODY>
+    <TR STYLE = "background-color: lightsteelblue">
+        <TD><SPAN DATAFLD = "Lastname"></SPAN></TD>
+        <TD><SPAN DATAFLD = "Firstname"
+                  STYLE = "font-family: monospace"></SPAN></TD>
+    </TR>
+    </TBODY>
+</TABLE>
+</BODY>
+</HTML>
+
+
+
+
+
