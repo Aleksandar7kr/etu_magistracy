@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.15</TITLE>
+    <SCRIPT LANGUAGE="JavaScript" FOR="window" EVENT="ONLOAD">
+        HTMLCode = "";
+        Document = dsoInventory.XMLDocument;
+        for (i=0;i<Document.documentElement.childNodes.length;i++)
+        {
+            HTMLCode +=
+                    "<SPAN STYLE='font-style:italic'>Автор: </SPAN>"
+                    +Document.documentElement.childNodes(i).childNodes(2).text+"<BR>"
+                    +"<SPAN STYLE='font-style:italic'>Наименование: </SPAN>"
+                    +Document.documentElement.childNodes(i).childNodes(1).text+"<BR>"
+
+                    +"<SPAN STYLE='font-style:italic'>Число страниц:</SPAN>"
+                    +Document.documentElement.childNodes(i).childNodes(4).text+"<BR>"
+                    +"<SPAN STYLE='font-style:italic'>Цена: </SPAN>"
+                    +Document.documentElement.childNodes(i).childNodes(5).text+"<BR>"
+                    +"<SPAN STYLE='font-style:italic'>Переплет: </SPAN>"
+                    +Document.documentElement.childNodes(i).childNodes(3).text+"<P>";
+        }
+        DisplayDIV.innerHTML=HTMLCode;
+    </SCRIPT>
+</HEAD>
+<BODY>
+<XML ID="dsoInventory" SRC="4.13.xml"></XML>
+<H2>Описание книг</H2>
+<DIV ID="DisplayDIV"></DIV>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+

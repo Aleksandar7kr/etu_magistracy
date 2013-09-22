@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.12</TITLE>
+    <SCRIPT LANGUAGE = "JavaScript">
+        var speed = 5, count = 10, direction = 1,fontStylecount = 0;
+        var firstLine = "Мы рады Вас видеть!";
+        var fontStyle = [ "serif", "sans-serif", "monospace" ];
+        function start()
+        {
+            window.setInterval( "run()", 50 );
+        }
+        function run()
+        {
+            count += speed;
+            if ( ( count % 200 ) == 0 ) {
+                speed *= -1;
+                direction = !direction;
+                pText.style.color = ( speed < 0 ) ? "red" : "green" ;
+                firstLine = ( speed < 0 ) ?
+                        "До скорой встречи!" : "Приветствую Вас!";
+                pText.style.fontFamily = fontStyle[ ++fontStylecount % 3 ];
+            }
+            pText.style.fontSize = count / 3;
+            pText.style.left = count;
+            pText.innerHTML = firstLine + "<BR> Размер шрифта: " + count + "px";
+        }
+    </SCRIPT>
+</HEAD>
+<BODY ONLOAD = "start()">
+<P ID = "pText" STYLE = "position: absolute; left: 0;
+             font-family: serif; color: green"></P>
+</BODY>
+</HTML>
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+BOOK {
+    display: block;
+    margin-top: 12pt;
+    font-size: 10pt
+}
+
+TITLE {
+    font-style: italic;
+    color: blue;
+}
+
+AUTHOR {
+    font-weight: bold;
+    color: green;
+}

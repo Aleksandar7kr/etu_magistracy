@@ -1,0 +1,38 @@
+BOOK {
+    display: block;
+    margin-top: 12pt;
+    font-size: 10pt
+}
+
+TITLE {
+    display: block;
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+    color: green
+}
+
+AUTHOR {
+    display: block;
+    margin-left: 15pt;
+    font-weight: bold;
+    color: red
+}
+
+BINDING {
+    display: block;
+    margin-left: 15pt
+}
+
+PAGES {
+    display: block;
+    margin-left: 15pt;
+    font-weight: bolder;
+}
+
+PRICE {
+    display: block;
+    margin-left: 15pt;
+    font-weight: bolder;
+    color: red;
+}

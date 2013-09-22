@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.4</TITLE>
+    <SCRIPT LANGUAGE = "VBScript">
+        <!--
+           Option Explicit
+           Public Sub DisplayArray( x, s )
+              Dim j
+              Document.Write( s & ": " )
+              For j = 0 to UBound( x )
+                 Document.Write( x( j ) & " " )
+              Next
+              Document.Write( "<BR>" )
+           End Sub
+           Dim fixedSize( 3 ), fixedArray, dynamic(), k
+           ReDim dynamic( 3 )  ' Установка размеров динамического массива
+           fixedArray = Array( "A", "B", "C" )
+           'Заполнение массивов
+           For k = 0 to UBound( fixedSize )
+              fixedSize( k ) = 50 - k
+              dynamic( k ) = Chr( 75 + k )
+           Next
+           Call DisplayArray( fixedSize, "Массив fixedSize" )
+           Call DisplayArray( fixedArray, "Массив fixedArray" )
+           Call DisplayArray( dynamic, "Массив dynamic" )
+          'Изменение размеров с сохранением текущих значений
+           ReDim  dynamic( 5 )
+           dynamic( 3 ) = 3.343
+           dynamic( 4 ) = 77.37443
+           Call DisplayArray( dynamic, "Массив dynamic после ReDim" )
+        -->
+    </SCRIPT>
+</HEAD>
+</HTML>
+
+

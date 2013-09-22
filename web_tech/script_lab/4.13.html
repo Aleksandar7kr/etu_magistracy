@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.13</TITLE>
+</HEAD>
+<BODY>
+<XML ID="dsoInventory" SRC="4.13.xml"></XML>
+<H2>Описание книг</H2>
+<IMG DATASRC="#dsoInventory" DATAFLD="COVERIMAGE" alt="img" height="100" width="100">        <BR>
+<SPAN STYLE="font-style:italic">Наименование: </SPAN>
+   <SPAN DATASRC="#dsoInventory" DATAFLD="TITLE"
+         STYLE="font-weight:bold"></SPAN> <BR>
+<SPAN STYLE="font-style:italic">Автор: </SPAN>
+<SPAN DATASRC="#dsoInventory" DATAFLD="AUTHOR"></SPAN> <BR>
+<SPAN STYLE="font-style:italic">Тип обложки: </SPAN>
+<SPAN DATASRC="#dsoInventory" DATAFLD="BINDING"></SPAN> <BR>
+<SPAN STYLE="font-style:italic">Число страниц: </SPAN>
+<SPAN DATASRC="#dsoInventory" DATAFLD="PAGES"></SPAN> <BR>
+<SPAN STYLE="font-style:italic">Цена: </SPAN>
+<SPAN DATASRC="#dsoInventory" DATAFLD="PRICE"></SPAN>
+<HR>
+<BUTTON ONCLICK="dsoInventory.recordset.movefirst()">
+    |&lt; Первый
+</BUTTON>
+<BUTTON ONCLICK="dsoInventory.recordset.moveprevious();
+     if (dsoInventory.recordset.BOF)
+        dsoInventory.recordset.movenext()"> &lt; Следующий
+</BUTTON>
+<BUTTON ONCLICK="dsoInventory.recordset.movenext();
+     if (dsoInventory.recordset.EOF)
+        dsoInventory.recordset.moveprevious()"> Предыдущий &gt;
+</BUTTON>
+<BUTTON ONCLICK="dsoInventory.recordset.movelast()">
+    Последний &gt;|
+</BUTTON>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+

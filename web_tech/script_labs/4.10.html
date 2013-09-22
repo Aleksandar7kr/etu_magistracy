@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.10</TITLE>
+    <SCRIPT LANGUAGE="JavaScript">
+        function deleteUser()
+        {
+            var sUserName="";
+            sUserName=prompt("Введите имя пользователя,\nудаляемого из базы"+"данных покупателей", "<temp user>");
+            if(sUserName != null && sUserName != "")
+            {
+                if(confirm("Вы действительно будете удалять пользователя\n" +
+                        sUserName + "\n из базы данных покупателей?") == true)
+                {
+                    // Удаление пользователя
+                    // . . .
+                    msgBox("Пользователь с именем\n" + sUserName +
+                            "\nуспешно удален из базы данных покупателей");
+                }
+                else
+                {
+                    msgBox("Имя пользователя " + sUserName +
+                            " оставлено в базе данных");
+                }
+            }
+        }
+        function msgBox(sMessage)
+        {
+            alert(sMessage);
+        }
+    </SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<H2>Удаление пользователей из базы данных покупателей</H2>
+<TABLE border="0" width="27%" cellpadding="2">
+    <TR>
+        <TD width="22%"><INPUT type="button" onClick="deleteUser();"
+                               value="Удалить пользователя" ></TD>
+    </TR>
+</TABLE>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+

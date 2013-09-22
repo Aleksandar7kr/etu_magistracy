@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.3</TITLE>
+    <SCRIPT LANGUAGE="VBScript">
+        <!--
+        Option Explicit
+        Sub cmdCalculate_OnClick
+        Dim Amount,Amount_two, CRLF, Message, Subtotal, TABSPACE, TAX_RATE,TAX_RATE_TWO, TotalCost
+        TAX_RATE = 0.12
+        TAX_RATE_TWO = 0.07
+        CRLF = Chr(13) & Chr(10)
+        TABSPACE = Chr(9)
+        Subtotal = Document.frm.txtQuantity.Value*Document.frm.txtUnitPrice.Value
+        Amount = Subtotal * TAX_RATE
+        Amount_two = Subtotal * TAX_RATE_TWO
+        TotalCost = Subtotal + Amount + Amount_two
+        Message = "Полная сумма заказа:"
+        Message = Message & CRLF & CRLF
+        Message = Message & "Себестоимость:" & TABSPACE & Subtotal & "руб."_
+        &CRLF
+        Message = Message & "Наценка 1 :" & TABSPACE & Amount & "руб." & CRLF
+        Message = Message & "Наценка 2 :" & TABSPACE & Amount_two & "руб." & CRLF
+        Message = Message & "Полная сумма:" & TABSPACE & TotalCost & "руб."
+        MsgBox Message,,"Ваша сумма"
+        End Sub
+        -->
+    </SCRIPT>
+</HEAD>
+<BODY>
+<H1>Расчет стоимости </H1>
+
+<FORM NAME="frm">
+    <TABLE>
+        <TR>
+            <TD><B>Количество:</B></TD>
+            <TD><INPUT TYPE="Text" NAME="txtQuantity" SIZE=5></TD>
+        </TR>
+        <TR>
+            <TD><B>Цена за единицу:</B></TD>
+            <TD><INPUT TYPE="Text" NAME="txtUnitPrice" SIZE=5></TD>
+        </TR>
+    </TABLE>
+    <BR>
+    <INPUT TYPE="Button" NAME="cmdCalculate" VALUE="Расчет стоимости">
+</FORM>
+</BODY>
+</HTML>
+

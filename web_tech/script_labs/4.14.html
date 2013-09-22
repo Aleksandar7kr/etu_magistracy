@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.14</TITLE>
+</HEAD>
+<BODY>
+<XML ID="dsoInventory" SRC="4.13.xml"></XML>
+<H2>Поиск</H2>
+Текст для поиска: <INPUT TYPE="TEXT" ID="SearchText">&nbsp
+<BUTTON ONCLICK='FindBooks()'>Поиск</BUTTON>
+<HR>
+Результаты поиска:<P>
+
+<DIV ID=ResultDiv></DIV>
+<SCRIPT LANGUAGE="JavaScript">
+    function FindBooks() {
+        SearchString = SearchText.value.toUpperCase();
+        if (SearchString == "") {
+            ResultDiv.innerHTML = "&ltВы должны ввести текст.&gt";
+            return;
+        }
+        dsoInventory.recordset.moveFirst();
+        ResultHTML = "";
+        while (!dsoInventory.recordset.EOF) {
+            TitleString = dsoInventory.recordset("AUTHOR").value;
+            if (TitleString.toUpperCase().indexOf(SearchString) >= 0)
+                ResultHTML += "<I>" + dsoInventory.recordset("TITLE") + "</I>,"
+                        + "<B>" + dsoInventory.recordset("AUTHOR") + "</B>, "
+                        + dsoInventory.recordset("BINDING") + ", "
+                        + dsoInventory.recordset("PAGES") + "pages,"
+                        + dsoInventory.recordset("PRICE") + "<P>";
+            dsoInventory.recordset.moveNext();
+        }
+        if (ResultHTML == "")
+            ResultDiv.innerHTML = "&ltТекст не найден&gt";
+        else
+            ResultDiv.innerHTML = ResultHTML;
+    }
+</SCRIPT>
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+

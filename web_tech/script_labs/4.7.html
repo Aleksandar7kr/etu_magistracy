@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.7</TITLE>
+</HEAD>
+<BODY>
+<H2>Нахождение минимального значения из трех чисел</H2>
+<SCRIPT LANGUAGE="JavaScript">
+    var input1 = window.prompt("Введите первое число", "0");
+    var input2 = window.prompt("Введите второе число", "0");
+    var input3 = window.prompt("Введите третье число", "0");
+    var value1 = parseFloat(input1);
+    var value2 = parseFloat(input2);
+    var value3 = parseFloat(input3);
+    var maxValue = Minimum(value1, value2, value3);
+    document.writeln("Первое число: " + value1 +
+            "<BR>Второе число: " + value2 +
+            "<BR>Третье число: " + value3 +
+            "<BR>Минимальное значение: " + maxValue);
+    function Minimum(x, y, z) {
+        return Math.min(x, y, z);
+    }
+</SCRIPT>
+<P>Нажмите Refresh чтобы повторить запуск</P>
+</BODY>
+</HTML>
+
+
+
+
+

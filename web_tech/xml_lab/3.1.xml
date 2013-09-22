@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/css" href="css/3.1.css"?>
+<INVENTORY>
+    <BOOK>
+        <TITLE>Java 2. Тонкости программирования</TITLE>
+        <AUTHOR>К. Хорстман, Г. Корнелл</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>992 стр.</PAGES>
+        <PRICE>1100 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Использование HTML4</TITLE>
+        <AUTHOR>Луиза Паттерсон</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>922 стр.</PAGES>
+        <PRICE>1000 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Dinamic HTML: справочник</TITLE>
+        <AUTHOR>Алекс Хоумер</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>505 стр.</PAGES>
+        <PRICE>190 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Как программировать на XML</TITLE>
+        <AUTHOR>Пол Дейтел</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>932 стр.</PAGES>
+        <PRICE>450 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>XMLи Java 2</TITLE>
+        <AUTHOR>Майкл Даконта</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>376 стр.</PAGES>
+        <PRICE>250 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Как программировать на Perl</TITLE>
+        <AUTHOR>Харвей Дейтел</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>1070 стр.</PAGES>
+        <PRICE>555 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Самоучитель PHP4</TITLE>
+        <AUTHOR>Дмитрий Котеров</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>552 стр.</PAGES>
+        <PRICE>200 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Разработка Web-скриптов</TITLE>
+        <AUTHOR>Дэн Хефлин</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>492 стр.</PAGES>
+        <PRICE>150 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>ASP.NET Учебный курс</TITLE>
+        <AUTHOR>Грег Бучек</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>506 стр.</PAGES>
+        <PRICE>250 руб.</PRICE>
+    </BOOK>
+</INVENTORY>

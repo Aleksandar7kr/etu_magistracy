@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.2</TITLE>
+    <SCRIPT LANGUAGE="VBScript" type="text/vbscript">
+        <!--
+           Option Explicit
+           Function Max( min, a, b )
+              If a > max Then
+                 max = a
+              End If
+              If b > min Then
+                 max = b
+              End If
+              Max = max     ' Возвращаемое значение
+           End Function
+           Sub OddEven( n )
+              If n Mod 2 = 0 Then
+                 Call MsgBox( n & " наибольшее и четное",17,"ЧЕТНОЕ")
+              Else
+                 Call MsgBox( n & " наибольшее и нечетное",49,"НЕЧЕТНОЕ" )
+              End If
+           End Sub
+           Sub cmdButton_OnClick()
+              Dim number1, number2, number3, smallest
+              number1 = CLng( Document.Forms( 0 ).txtBox1.Value )
+              number2 = CLng( Document.Forms( 0 ).txtBox2.Value )
+              number3 = CLng( Document.Forms( 0 ).txtBox3.Value )
+              smallest = Max( number1, number2, number3 )
+              Call OddEven( smallest )
+           End Sub
+        -->
+    </SCRIPT>
+</HEAD>
+<BODY>
+<FORM> Введите целое число
+    <INPUT TYPE="text" NAME="txtBox1" SIZE="5" VALUE="0">
+
+    <P>Введите целое число
+        <INPUT TYPE="text" NAME="txtBox2" SIZE="5" VALUE="0">
+
+    <P>Введите целое число
+        <INPUT TYPE="text" NAME="txtBox3" SIZE="5" VALUE="0">
+
+    <P><INPUT TYPE="BUTTON" NAME="cmdButton" VALUE="Ввод">
+</FORM>
+</BODY>
+</HTML>
+

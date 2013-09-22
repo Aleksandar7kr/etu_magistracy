@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.8</TITLE>
+    <BODY>
+    <H2>Вычисление сложных процентов</H2>
+    <SCRIPT LANGUAGE = "JavaScript">
+        var amount, principal = 2000.0, rate = .11;
+        document.writeln("Исходная сумма 2000, годовой процент 11%"+"<BR><BR>");
+        document.writeln( "<TABLE BORDER = '1' WIDTH = '100%'>" );
+        document.writeln( "<TR><TD WIDTH = '100'><B>Год</B></TD>" );
+        document.writeln( "<TD><B>Полная сумма</B></TD></TR>" );
+        for ( var year = 1; year <= 20; ++year ) {
+            amount = principal * Math.pow( 1.0 + rate, year );
+            document.writeln( "<TR><TD>" + year + "</TD><TD>" +
+                    Math.round( amount * 100 ) / 100 + "</TD></TR>" );
+        }
+        document.writeln( "</TABLE>" );
+    </SCRIPT>
+</HEAD>
+</BODY>
+</HTML>
+
+
+
+
+
+

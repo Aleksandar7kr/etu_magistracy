@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.11</TITLE>
+    <SCRIPT LANGUAGE = "JavaScript">
+        function start()
+        {
+            var names = new Array( "Красильников", "Малютин", "Островский", "Маяков" );
+
+            outputArray( "Содержание массива фамилий студентов группы 9301 ", names );
+        }
+        function outputArray( header, theArray )
+        {
+            document.writeln( "<H2>" + header + "</H2>" );
+            document.writeln( "<TABLE BORDER = '1' WIDTH = '100%'>" );
+            document.writeln( "<TR><TD WIDTH = '100'><B>Номер</B>"
+                    + "<TD><B>Фамилия</B></TR>" );
+            for ( var i = 0; i < theArray.length; i++ )
+                document.writeln( "<TR><TD>" + (i+1) + "<TD>" +  theArray[ i ] + "</TR>" );
+            document.writeln( "</TABLE>" );
+        }
+    </SCRIPT>
+</HEAD><BODY ONLOAD = "start()"></BODY>
+</HTML>
+
+
+
+
+
+
+
+
+

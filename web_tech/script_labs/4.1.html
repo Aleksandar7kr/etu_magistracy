@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<HTML>
+<HEAD>
+    <TITLE>4.1</TITLE>
+    <SCRIPT LANGUAGE = "VBScript">
+        <!--
+           Option Explicit
+           Dim intTotal
+           Sub Add_OnClick()
+              Dim intValue
+              intValue = InputBox("Введите целое число", "Input Box", , 1000, 1000)
+              intTotal = CInt( intTotal ) + CInt( intValue )
+              Call MsgBox("Вы ввели " & intValue & _
+                                    "; Результат " & intTotal, , "Результат")
+           End Sub
+        -->
+    </SCRIPT>
+</HEAD>
+<BODY>
+Нажмите на кнопку, чтобы прибавить число к результату <HR>
+<FORM>
+    <INPUT NAME = "Add" TYPE = "BUTTON" VALUE = "Add">
+</FORM>
+</BODY>
+</HTML>
