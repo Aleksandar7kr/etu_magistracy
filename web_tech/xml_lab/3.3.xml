@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="windows-1251"?>
-<book>
-    <title>java 2. тонкости программирования</title>
-    <author>к. хорстман, г. корнелл</author>
-    <binding>твердая обложка</binding>
-    <pages>395 стр.</pages>
-    <price>1100 руб.</price>
-</book>
+    <BOOK>
+        <TITLE>РљР°Рє РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°С‚СЊ РЅР° РЎ++</TITLE>
+        <AUTHOR>РҐР°СЂРІРµР№ Р”РµР№С‚РµР»</AUTHOR>
+        <BINDING>РўРІРµСЂРґР°СЏ РѕР±Р»РѕР¶РєР°</BINDING>
+        <PAGES>1142 СЃС‚СЂ.</PAGES>
+        <PRICE>550 СЂСѓР±.</PRICE>
+    </BOOK>

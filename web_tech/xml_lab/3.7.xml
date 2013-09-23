@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="xsl/3.7.xsl"?>
+<INVENTORY>
+    <BOOK>
+        <TITLE>Использование HTML4</TITLE>
+        <AUTHOR>
+            <FIRSTNAME>Луиза</FIRSTNAME>
+            <LASTNAME>Паттерсон</LASTNAME>
+        </AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>395 стр.</PAGES>
+        <PRICE>110 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Dinamic HTML: справочник</TITLE>
+        <AUTHOR>
+            <FIRSTNAME>Алекс</FIRSTNAME>
+            <LASTNAME>Хоумер</LASTNAME>
+        </AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>505 стр.</PAGES>
+        <PRICE>190 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Как программировать на XML</TITLE>
+        <AUTHOR>
+            <FIRSTNAME>Пол</FIRSTNAME>
+            <LASTNAME>Дейтел</LASTNAME>
+        </AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>932 стр.</PAGES>
+        <PRICE>450 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>XML и Java 2</TITLE>
+        <AUTHOR>
+            <FIRSTNAME> Майкл </FIRSTNAME>
+            <LASTNAME> Даконта</LASTNAME>
+        </AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>376 стр.</PAGES>
+        <PRICE>250 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Как программировать на Perl</TITLE>
+        <AUTHOR>
+            <FIRSTNAME> Харвей </FIRSTNAME>
+            <LASTNAME> Дейтел</LASTNAME >
+        </AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>1070 стр.</PAGES>
+        <PRICE>555 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Самоучитель PHP4</TITLE>
+        <AUTHOR>
+            <FIRSTNAME>Дмитрий</FIRSTNAME>
+            <LASTNAME> Котеров</LASTNAME>
+        </AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>552 стр.</PAGES>
+        <PRICE>200 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>Разработка Web-скриптов</TITLE>
+        <AUTHOR>
+            <FIRSTNAME>Дэн</FIRSTNAME>
+            <LASTNAME>Хефлин</LASTNAME>
+        </AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>492 стр.</PAGES>
+        <PRICE>150 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <TITLE>ASP.NET Учебный курс</TITLE>
+        <AUTHOR>
+            <FIRSTNAME>Грег</FIRSTNAME>
+            <LASTNAME> Бучек</LASTNAME>
+        </AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>506 стр.</PAGES>
+        <PRICE>250 руб.</PRICE>
+    </BOOK>
+</INVENTORY>

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<html>
+<head>
+    <title>3.5</title>
+</HEAD>
+<BODY>
+<XML ID="dsoInventory" SRC="3.5.xml"></XML>
+<H2>Список книг</H2>
+<TABLE DATASRC="#dsoInventory" BORDER="1"CELLPADDING="2">
+    <THEAD>
+    <TH>Cover</TH>
+    <TH>Title</TH>
+    <TH>Author</TH>
+    <TH>Binding</TH>
+    <TH>Pages</TH>
+    <TH>Price</TH>
+    </THEAD>
+    <TR ALIGN="center">
+        <TD><IMG DATAFLD="COVERIMAGE" height="100" width="100"></TD>
+        <TD><SPAN DATAFLD="TITLE"
+                  STYLE="font-style:italic"></SPAN></TD>
+        <TD><SPAN DATAFLD="AUTHOR"></SPAN></TD>
+        <TD><SPAN DATAFLD="BINDING"></SPAN></TD>
+        <TD><SPAN DATAFLD="PAGES"></SPAN></TD>
+        <TD><SPAN STYLE="color: red" DATAFLD="PRICE"></SPAN></TD>
+    </TR>
+</TABLE>
+</BODY>
+</HTML>
+

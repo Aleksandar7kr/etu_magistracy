@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!-- InventoryImage.xml -->
+<INVENTORY>    <BOOK>
+        <COVERIMAGE>img/catgif.gif</COVERIMAGE>
+        <TITLE>Программирование на Java2</TITLE>
+        <AUTHOR>Харвей Дейтел</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>724 стр.</PAGES>
+        <PRICE>400 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <COVERIMAGE>img/cat1.jpg</COVERIMAGE>
+        <TITLE>Программирование на VisualBasic</TITLE>
+        <AUTHOR>Харвей Дейтел</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>850 стр</PAGES>
+        <PRICE>350 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <COVERIMAGE>img/cat1.jpg</COVERIMAGE>
+        <TITLE>Как программировать на С++</TITLE>
+        <AUTHOR>Харвей Дейтел</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>1142 стр.</PAGES>
+        <PRICE>550 руб.</PRICE>
+    </BOOK>
+    <BOOK>
+        <COVERIMAGE>img/cat2.jpg</COVERIMAGE>
+        <TITLE>Как программировать на Java</TITLE>
+        <AUTHOR>Харвей Дейтел</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>844 стр.</PAGES>
+        <PRICE>350 руб.</PRICE>
+    </BOOK>
+
+</INVENTORY>

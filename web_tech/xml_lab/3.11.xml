@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="xsl/3.11.xsl"?>
+<INVENTORY>
+    <BOOK InStock="да">
+        <TITLE ISBN="5-8459-0044-1">Использование HTML4</TITLE>
+        <AUTHOR>Луиза Паттерсон</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>395 стр.</PAGES>
+        <PRICE>110 руб.</PRICE>
+    </BOOK>
+    <BOOK InStock="да">
+        <TITLE ISBN="5-314-0189-6">Dinamic HTML: справочник</TITLE>
+        <AUTHOR>Алекс Хоумер</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>505 стр.</PAGES>
+        <PRICE>190 руб.</PRICE>
+    </BOOK>
+    <BOOK InStock="нет">
+        <TITLE ISBN="5-7989--0233">Как программировать на XML</TITLE>
+        <AUTHOR>Пол Дейтел</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>932 стр.</PAGES>
+        <PRICE>450 руб.</PRICE>
+    </BOOK>
+    <BOOK InStock="да">
+        <TITLE ISBN=" 5-318-00187-4">XMLи Java 2</TITLE>
+        <AUTHOR>Майкл Даконта</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>376 стр.</PAGES>
+        <PRICE>250 руб.</PRICE>
+    </BOOK>
+    <BOOK InStock="да">
+        <TITLE ISBN=" 5-789-0248-X">Как программировать на Perl</TITLE>
+        <AUTHOR>Харвей Дейтел</AUTHOR>
+        <BINDING>Твердая обложка</BINDING>
+        <PAGES>1070 стр.</PAGES>
+        <PRICE>555 руб.</PRICE>
+    </BOOK>
+    <BOOK InStock="да">
+        <TITLE ISBN=" 5-94157-071-6">Самоучитель PHP4</TITLE>
+        <AUTHOR>Дмитрий Котеров</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>552 стр.</PAGES>
+        <PRICE>200 руб.</PRICE>
+    </BOOK>
+    <BOOK InStock="нет">
+        <TITLE ISBN="5-318-00089-4">Разработка Web-скриптов</TITLE>
+        <AUTHOR>Дэн Хефлин</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>492 стр.</PAGES>
+        <PRICE>150 руб.</PRICE>
+    </BOOK>
+    <BOOK InStock="нет">
+        <TITLE ISBN="5-94723-177-4">ASP.NET Учебный курс</TITLE>
+        <AUTHOR>Грег Бучек</AUTHOR>
+        <BINDING>Мягкая обложка</BINDING>
+        <PAGES>506 стр.</PAGES>
+        <PRICE>250 руб.</PRICE>
+    </BOOK>
+</INVENTORY>

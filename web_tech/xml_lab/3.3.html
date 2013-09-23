@@ -1,24 +1,22 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<html>
 <head>
     <title>3.3</title>
 </head>
 <body>
-<xml id="dsobook" src="D:\Dropbox\magistracy1\etu_magistracy\web_tech\xml_lab\3.3.xml"></xml>
-
-<h2>описание книги</h2>
-<span style="font-style:italic">название: </span>
-   <span style="font-weight:bold" datasrc="dsobook"
-         datafld="title"></span><br/>
-<span style="font-style:italic">автор: </span>
-   <span datasrc="#dsobook"
-         datafld="author"></span><br/>
-<span style="font-style:italic">тип обложки: </span>
-   <span datasrc="#dsobook"
-         datafld="binding"></span><br/>
-<span style="font-style:italic">число страниц: </span>
-   <span datasrc="#dsobook"
-         datafld="pages"></span><br/>
-<span style="font-style:italic">цена: </span>
-<span datasrc="#dsobook" datafld="price"></span>
+<XML ID="dsoInventory" SRC="3.3.xml"></XML>
+<H2>Описание книг</H2>
+<SPAN STYLE="font-style:italic">Наименование: </SPAN>
+   <SPAN DATASRC="#dsoInventory" DATAFLD="TITLE"
+         STYLE="font-weight:bold; color:green"></SPAN> <BR>
+<SPAN STYLE="font-style:italic">Автор: </SPAN>
+<SPAN DATASRC="#dsoInventory" DATAFLD="AUTHOR" STYLE="color:red"></SPAN> <BR>
+<SPAN STYLE="font-style:italic">Тип обложки: </SPAN>
+<SPAN DATASRC="#dsoInventory" DATAFLD="BINDING"></SPAN> <BR>
+<SPAN STYLE="font-style:italic">Число страниц: </SPAN>
+<SPAN DATASRC="#dsoInventory" DATAFLD="PAGES"></SPAN> <BR>
+<SPAN STYLE="font-style:italic">Цена: </SPAN>
+<SPAN DATASRC="#dsoInventory" DATAFLD="PRICE"></SPAN>
 </body>
 </html>

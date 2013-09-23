@@ -21,7 +21,7 @@
     <file path="/1.13.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378638071043" ignored="false" />
     <file path="/1.14.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378638624141" ignored="false" />
     <file path="/1.15.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378638869048" ignored="false" />
-    <file path="/index.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379890563323" ignored="false" />
+    <file path="/index.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379896104312" ignored="false" />
     <file path="/2.1.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378646833991" ignored="false" />
     <file path="/2.2.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378647169766" ignored="false" />
     <file path="/2.3.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378647739638" ignored="false" />
@@ -43,7 +43,7 @@
     <file path="/3.1.css" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378851703562" ignored="false" />
     <file path="/3.2.css" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378852303825" ignored="false" />
     <file path="/3.2.xml" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378852110592" ignored="false" />
-    <file path="/3.3.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379886142140" ignored="false" />
+    <file path="/3.3.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379894759091" ignored="false" />
     <file path="/3.3.xml" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1378853479477" ignored="false" />
     <file path="/4.1.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379886957957" ignored="false" />
     <file path="/4.2.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379887313710" ignored="false" />
@@ -58,6 +58,18 @@
     <file path="/4.13.xml" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379889757579" ignored="false" />
     <file path="/4.14.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379889991040" ignored="false" />
     <file path="/4.15.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379890436495" ignored="false" />
+    <file path="/5.1.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379891378875" ignored="false" />
+    <file path="/3.4.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379894900800" ignored="false" />
+    <file path="/3.5.xml" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379895077520" ignored="false" />
+    <file path="/3.5.html" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379895163042" ignored="false" />
+    <file path="/3.6.xml" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379895399367" ignored="false" />
+    <file path="/3.7.xml" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379895551941" ignored="false" />
+    <file path="/3.7.xsl" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379895699224" ignored="false" />
+    <file path="/3.8.xsl" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379895837947" ignored="false" />
+    <file path="/3.9.xsl" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379896035618" ignored="false" />
+    <file path="/3.10.xsl" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379896174564" ignored="false" />
+    <file path="/3.11.xml" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379896381631" ignored="false" />
+    <file path="/3.11.xsl" changelist="3c8a355d-4e46-42bb-9761-9bb2d8b7d1f6" time="1379896350988" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +92,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="71" selection-start="494" selection-end="494" vertical-scroll-proportion="0.273878">
+            <state line="4" column="7" selection-start="126" selection-end="126" vertical-scroll-proportion="0.07825086">
               <folding />
             </state>
           </provider>
@@ -96,21 +108,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/script_labs/4.3.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.4.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.5.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.6.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.7.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.8.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.9.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.10.html" />
-        <option value="$PROJECT_DIR$/script_labs/index.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.11.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.12.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.13.xml" />
-        <option value="$PROJECT_DIR$/script_labs/4.13.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.14.html" />
-        <option value="$PROJECT_DIR$/script_labs/4.15.html" />
+        <option value="$PROJECT_DIR$/xmlab/3.5.xml" />
+        <option value="$PROJECT_DIR$/xmlab/3.6.html" />
+        <option value="$PROJECT_DIR$/xmlab/xsl/3.6.xsl" />
+        <option value="$PROJECT_DIR$/xmlab/3.6.xml" />
+        <option value="$PROJECT_DIR$/xmlab/3.7.xml" />
+        <option value="$PROJECT_DIR$/xmlab/xsl/3.7.xsl" />
+        <option value="$PROJECT_DIR$/xmlab/3.8.xml" />
+        <option value="$PROJECT_DIR$/xmlab/xsl/3.8.xsl" />
+        <option value="$PROJECT_DIR$/xmlab/3.9.xml" />
+        <option value="$PROJECT_DIR$/xmlab/xsl/3.9.xsl" />
+        <option value="$PROJECT_DIR$/xmlab/3.10.xml" />
+        <option value="$PROJECT_DIR$/xmlab/index.html" />
+        <option value="$PROJECT_DIR$/xmlab/xsl/3.10.xsl" />
+        <option value="$PROJECT_DIR$/xmlab/xsl/3.11.xsl" />
+        <option value="$PROJECT_DIR$/xmlab/3.11.xml" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -118,6 +130,25 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1076" />
     <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidElementInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,6 +194,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_tech" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web_tech" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml_lab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -175,11 +220,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\magistracy1\etu_magistracy\web_tech\xmlab" />
+      <recent name="D:\Dropbox\magistracy1\etu_magistracy\web_tech\cgi_perl_lab" />
       <recent name="D:\Dropbox\magistracy1\etu_magistracy\web_tech\script_labs" />
       <recent name="D:\Dropbox\magistracy1\etu_magistracy\web_tech\script_labs\img" />
       <recent name="D:\Dropbox\magistracy1\etu_magistracy\web_tech\xml_lab" />
-      <recent name="D:\Dropbox\magistracy1\etu_magistracy\web_tech\css_lab" />
-      <recent name="D:\Dropbox\magistracy1\etu_magistracy\web_tech\html" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Dropbox\magistracy1\etu_magistracy\web_tech\css_lab" />
@@ -215,12 +260,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1076" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22179364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22179364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -296,129 +341,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/script_lab/4.6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="75" selection-start="298" selection-end="298" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="177" selection-end="951" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="65" selection-start="376" selection-end="376" vertical-scroll-proportion="0.17606445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="96" selection-start="848" selection-end="848" vertical-scroll-proportion="0.35747662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="843" selection-end="843" vertical-scroll-proportion="0.3716916">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="97" selection-start="22" selection-end="22" vertical-scroll-proportion="0.019562716">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="66" selection-start="651" selection-end="721" vertical-scroll-proportion="0.3716916">
-          <folding>
-            <element signature="n#STYLE#0;n#P#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml_lab/3.3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml_lab/3.3.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="38" selection-start="883" selection-end="883" vertical-scroll-proportion="0.44994247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml_lab/3.1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="64" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="56" selection-start="817" selection-end="817" vertical-scroll-proportion="-16.346153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="253" selection-end="339" vertical-scroll-proportion="-5.8846154">
-          <folding>
-            <element signature="n#STYLE#0;n#SPAN#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#SPAN#1;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#SPAN#2;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#SPAN#4;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#SPAN#6;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <element signature="n#STYLE#0;n#SPAN#8;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.13.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script_lab/4.15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="69" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-18.307692">
-          <folding>
-            <marker date="1379890436637" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1379890436637" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1379890436637" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1379890436637" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1379890436637" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="71" selection-start="494" selection-end="494" vertical-scroll-proportion="0.273878">
+        <state line="4" column="7" selection-start="126" selection-end="126" vertical-scroll-proportion="0.07825086">
           <folding />
         </state>
       </provider>

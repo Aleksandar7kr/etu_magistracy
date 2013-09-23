@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="xsl/3.6.xsl"?>
+<BOOK>
+
+    <AUTHOR>
+        <FIRSTNAME>Майкл </FIRSTNAME>
+        <LASTNAME>Даконта</LASTNAME>
+    </AUTHOR>
+    <TITLE>XML и Java 2</TITLE>
+    <PRICE>250 руб.</PRICE>
+    <BINDING>Мягкая обложка</BINDING>
+    <PAGES>376 стр.</PAGES>
+
+</BOOK>
